@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  min-width: 1200px;
+  color: #000000;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.global_container_ {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 100%; /* 1200px / 1200px = 100% */
+  background: #cdd1d7 center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.l-constrained {
+  margin: 0 auto;
+  position: relative;
+  width: 1200px;
+}
+.wrapper {
+  float: left;
+  height: 628px;
+  margin: 0 5px 0 0;
+  position: relative;
+  width: 648px;
+}
+.col {
+  left: 50%;
+  min-height: 628px;
+  padding: 96px 0 0;
+  position: absolute;
+  top: 0;
+  width: 624px;
+  background: #155ff6;
+  -webkit-box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33);
+  -moz-box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33);
+  box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33); /*drop shadow*/
+  margin-left: -324px;
+}
+.place-your-logo-here-double-click {
+  display: block;
+  margin: 0 0 0 48px;
+  position: relative;
+}
+.tittle {
+  display: block;
+  margin: 20px auto 0;
+  position: relative;
+  right: 22.5px;
+}
+.subtitle {
+  display: block;
+  margin: -1px 0 0 50px;
+  position: relative;
+}
+.body-text {
+  display: block;
+  margin: 21px 0 0 48px;
+  position: relative;
+}
+.social-media {
+  margin: 49px 48px 0;
+  position: relative;
+}
+.icons {
+  float: left;
+  margin: 0 31px 0 0;
+  position: relative;
+  width: 121px;
+}
+.icons > * {
+  float: left;
+  margin: 0 21.46px 0 0;
+}
+.icons > *:last-child {
+  margin-right: 0 !important;
+}
+.twitter {
+  margin-top: 1px !important;
+}
+.social-media-2 {
+  float: left;
+  margin: 2px 0 0;
+}
+.shape {
+  height: 88px;
+  margin: 30px 0 0;
+  position: relative;
+  width: 128px;
+  background: #ff9138;
+}
+.shape-2 {
+  height: 628px;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 84px;
+  background: #9686ff;
+  -webkit-box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33);
+  -moz-box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33);
+  box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33); /*drop shadow*/
+  margin-left: 240px;
+}
+.shape-3 {
+  height: 88px;
+  left: 50%;
+  position: absolute;
+  top: 540px;
+  width: 520px;
+  background: #ffe546;
+  -webkit-box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33);
+  -moz-box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33);
+  box-shadow: 0 11px 10px 0 rgba(173, 31, 79, 0.33); /*drop shadow*/
+  margin-left: -196px;
+}
+.shape-4 {
+  height: 236px;
+  left: 50%;
+  position: absolute;
+  top: 392px;
+  width: 84px;
+  background: #ff9138;
+  margin-left: 240px;
+}
+.shape-5 {
+  float: left;
+  margin: 44px 0 0;
+  width: 543px;
+  -webkit-border-radius: 271.28px 271.29px 271.29px 271.28px/271.37px;
+  -moz-border-radius: 271.28px 271.29px 271.29px 271.28px/271.37px;
+  border-radius: 271.28px 271.29px 271.29px 271.28px/271.37px;
+}

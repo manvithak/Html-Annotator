@@ -1,0 +1,168 @@
+<!-- <head>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="content">
+    <pre id="dom-tree"></pre>
+    <div id="page">
+      <h1>This is a <u>header</u></h1>
+      <h2>Sub <i>header</i></h2>
+      <p>some plain <span>old text</span>. Some of it is <b>bold</b>, some is <u>underlined</u> and others are <s>striked out</s>.</p>
+      <p>This is a pragraph that contains a <a href="https://google.com">link to google.</a></p>
+      <p>To do list:</p>
+      <ul>
+        <li>Add attributes to dom-tree</li>
+        <li>Use some syntax highlighting</li>
+        <li>Enjoy</li>
+      </ul>
+      <img src="https://images.pexels.com/photos/18500862/pexels-photo-18500862/free-photo-of-a-typewriter-with-a-paper-that-says-decentalized.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+    </div>
+    <div id="highlight"></div>
+  </div>
+  <script src="index.js"></script>
+</body> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annotate UI</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .annotation-box {
+      position: absolute;
+      border: 2px solid red;
+      background-color: rgba(255, 0, 0, 0.1);
+    }
+    .annotation-comment {
+      position: absolute;
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="annotation-container">
+  <div id="content">
+    <pre id="dom-tree"></pre>
+    <div id="page">
+      <h1>This is a <u>header</u></h1>
+      <h2>Sub <i>header</i></h2>
+      <p id="highlight1">some plain <span>old text</span>. Some of it is <b>bold</b>, some is <u>underlined</u> and others are <s>striked out</s>.</p>
+      <p>This is a pragraph that contains a <a href="https://google.com">link to google.</a></p>
+      <p>To do list:</p>
+      <ul>
+        <li>Add attributes to dom-tree</li>
+        <li>Use some syntax highlighting</li>
+        <li>Enjoy</li>
+      </ul>
+    </div>
+    <div id="highlight"></div>
+  </div>
+  <div id="highlight2">
+    <img src="https://via.placeholder.com/300" alt="Sample Image" id="image1">
+  </div>
+  
+  <button>Submit</button>
+</div>
+
+<script src="annotate.js"></script>
+</body>
+</html>
+
+ -->
+
+ <!doctype html>
+<html>
+  <head>
+    <title>Your site's title should be here</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your site's description should be here">
+    <meta name="keywords" content="Your site's keywords should be here">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .annotation-box {
+        position: absolute;
+        border: 2px solid red;
+        background-color: rgba(255, 0, 0, 0.1);
+      }
+      .annotation-comment {
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+    </style> -->
+    <!--[if IE 6]>
+	<style type="text/css">
+		* html .group {
+			height: 1%;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if IE 7]>
+	<style type="text/css">
+		*:first-child+html .group {
+			min-height: 1px;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if lt IE 9]> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+  <![endif]--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/match-height.js"></script> 
+    <script>
+		$(function () {
+			$('.match-height-bootstrap-row > * > *').matchHeight();
+			$('.match-height > *').matchHeight();
+		})
+	</script>
+  </head>
+  <body>
+    <div id="dom-tree" style="display:none"></div>
+    <div id="page">
+      <div class="global_container_">
+        <div class="l-constrained group">
+          <div class="wrapper">
+            <div class="col">
+              <img class="place-your-logo-here-double-click" src="images/place_your_logo_here_doub.png" alt="" width="49" height="72">
+              <img class="tittle" src="images/tittle.png" alt="Tailored Promo Packages" width="483" height="113" title="Tailored Promo Packages">
+              <img class="subtitle" src="images/subtitle.png" alt="Unleash Your Brand's Potential" width="277" height="58" title="Unleash Your Brand's Potential">
+              <img class="body-text" src="images/body_text.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. commodo viverra maecenas accumsan lacus vel facilisis." width="297" height="66" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. commodo viverra maecenas accumsan lacus vel facilisis.">
+              <div class="social-media match-height group">
+                <div class="icons group">
+                  <img src="images/instagram.png" alt="" width="16" height="16">
+                  <img src="images/linkedin.png" alt="" width="16" height="16">
+                  <img src="images/facebook.png" alt="" width="8" height="16">
+                  <img class="twitter" src="images/twitter.png" alt="" width="16" height="14">
+                </div>
+                <img class="social-media-2" src="images/social_media.png" alt="hifive" width="43" height="12" title="hifive">
+              </div>
+              <div class="shape"></div>
+            </div>
+            <div class="shape-2"></div>
+            <div class="shape-3"></div>
+            <div class="shape-4"></div>
+          </div>
+          <img class="shape-5" src="images/shape.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div id="highlight"></div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
