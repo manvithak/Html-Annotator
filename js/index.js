@@ -78,8 +78,8 @@ domTree.addEventListener("mouseleave", function(e) {
   highlight.remove();
   currentlyHighlightedItem = null;
   let selectedDomTreeElement = document.querySelector(".dom-element.selected");
-  const cssPath = getCssPath(selectedDomTreeElement);
-  console.log(cssPath)
+  // const cssPath = getCssPath(selectedDomTreeElement);
+  // console.log(cssPath)
   if(selectedDomTreeElement) {
   	selectedDomTreeElement.classList.remove("selected");
   }
